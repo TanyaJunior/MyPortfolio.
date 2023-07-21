@@ -9,11 +9,17 @@
   display: inline;
   text-align: center;
   padding: 75px;
+  color: black;
 }
 
 ul{
   text-align: center;
   padding: 10px;
+}
+.contact-me{
+ border: 1px solid black;
+ border-radius: 30px;
+ width: fit-content;
 }
 
 .header{
@@ -93,12 +99,33 @@ a{
   margin-left: 70px;
 
 }
-/* Only necessary with horizontal scrolling */
-html[data-scroll-orientation="horizontal"] {
-  body {
-      width: fit-content;
+.tech-stack{
+  margin-top: 90px;
+  padding:15px
+}
+.tech-stack img{
+  width:80px;
+  padding: 30px;
+}
+.background-image{
+    width: 100%; /* Set the width to 100% */
+    padding-bottom: 35%; /* Set the padding to create the square aspect ratio */
+    padding-top: 0px;
+    background-image: url(https://images.unsplash.com/photo-1545989253-02cc26577f88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80); /* Add background color to see the square */
   }
-  [data-scroll-container] {
-      display: flex;
+  h2{
+    padding:10px;
   }
+.info p{
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.me-image{
+  display: flex;
+}
+
+.certificate-image{
+}
+.bg{
+  width: 500px;
 }

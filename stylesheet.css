@@ -1,0 +1,104 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+@import 'node_modules/locomotive-scroll/dist/locomotive-scroll';
+
+
+ nav ul li{
+  display: inline;
+  text-align: center;
+  padding: 75px;
+}
+
+ul{
+  text-align: center;
+  padding: 10px;
+}
+
+.header{
+  margin-top: 170px;
+  margin-left: 172px;
+  font-family: 'Poppins', sans-serif;
+}
+.circle {
+  width: 120px; /* Adjust the width and height to control the size of the circle */
+  height: 120px;
+  border-radius: 50%; /* Set border-radius to 50% to create a circle */
+  background-color: purple; /* Set the background color to purple */
+  margin-left: 128px;
+  margin-top: -20px;
+}
+.socials img{
+  width:30px;
+  padding: 6px;
+  border: 1.8px solid #065c04;
+  padding: 6px;
+  border-radius: 24px;
+}
+.socials {
+  margin-left: 85px;
+  margin-top: 40px;
+
+}
+
+.down-arrow img{
+  margin: 0 645px;
+  align-items: center;
+}
+.me img{
+  width: 540px;
+  height: 578px;
+  background: linear-gradient(to top, rgb(4, 54, 4) 50%, #fff 50%); /* Define the gradient */
+  border-radius: 50%;
+}
+
+.me{
+  position: absolute;
+  right:2px;
+  top:60px;
+}
+
+.Hire-me-btn {
+  background-color: #065c04;
+  padding:12px 70px 12px 70px;
+  color: #fff;
+  border-radius: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.KicksKart{
+  display: flex;
+}
+
+.KicksKart img{
+  width: 700px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.KicksKart h1{
+  margin-left: 242px;
+  margin-top: 100px;
+
+}
+
+.info{
+}
+
+.info p{
+  margin-left: 70px;
+
+}
+/* Only necessary with horizontal scrolling */
+html[data-scroll-orientation="horizontal"] {
+  body {
+      width: fit-content;
+  }
+  [data-scroll-container] {
+      display: flex;
+  }
+}
